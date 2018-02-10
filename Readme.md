@@ -1,4 +1,11 @@
 KeyCade Nano Hardware
 =====================
 
-Todo: write some text here
+Hardware files for the [KeyCade Nano](https://github.com/jockm/KeyCadeNano) project.  
+
+This will include:
+
+* EDA (Eagle CAD) files for the KeyCade Nano
+* Bill of Materials
+* Notes
+* Etc
