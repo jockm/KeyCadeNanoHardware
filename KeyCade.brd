@@ -302,6 +302,11 @@ chip</description>
 <text x="-2" y="-2.6" size="1.27" layer="27">&gt;VALUE</text>
 <text x="-2" y="1.5" size="1.27" layer="25">&gt;NAME</text>
 </package>
+<package name="CREATIVE_COMMONS">
+<text x="-20.32" y="5.08" size="1.778" layer="51" font="vector">Released under the Creative Commons Attribution 4.0 License</text>
+<text x="0" y="2.54" size="1.778" layer="51" font="vector"> https://creativecommons.org/licenses/by/4.0/</text>
+<text x="11.43" y="0" size="1.778" layer="51" font="vector">Designed by:</text>
+</package>
 </packages>
 </library>
 <library name="SparkFun-Electromechanical">
@@ -849,6 +854,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="TP_SIGNAL_NAME" value="" x="6.50875" y="36.5125" size="1" layer="38" rot="MR0"/>
 <attribute name="VALUE" x="7.27075" y="38.1635" size="0.0254" layer="28" rot="MR0"/>
 </element>
+<element name="FRAME1" library="StuffLabs" package="CREATIVE_COMMONS" value="FRAME-LETTER" x="13.335" y="-10.795"/>
 </elements>
 <signals>
 <signal name="GND">

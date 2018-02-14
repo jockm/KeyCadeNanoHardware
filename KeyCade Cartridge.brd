@@ -131,6 +131,8 @@
 <layer number="229" name="229bmp" color="7" fill="1" visible="no" active="yes"/>
 <layer number="230" name="230bmp" color="7" fill="1" visible="no" active="yes"/>
 <layer number="231" name="231bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="232" name="Eagle3D_PG2" color="14" fill="2" visible="yes" active="yes"/>
+<layer number="233" name="Eagle3D_PG3" color="14" fill="4" visible="yes" active="yes"/>
 <layer number="248" name="Housing" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="249" name="Edge" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="250" name="Descript" color="3" fill="1" visible="no" active="no"/>
@@ -232,6 +234,15 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <rectangle x1="-0.8128" y1="1.8542" x2="-0.4572" y2="2.8702" layer="51"/>
 <rectangle x1="0.4572" y1="1.8542" x2="0.8128" y2="2.8702" layer="51"/>
 <rectangle x1="1.7272" y1="1.8542" x2="2.0828" y2="2.8702" layer="51"/>
+</package>
+</packages>
+</library>
+<library name="StuffLabs">
+<packages>
+<package name="CREATIVE_COMMONS">
+<text x="-20.32" y="5.08" size="1.778" layer="51" font="vector">Released under the Creative Commons Attribution 4.0 License</text>
+<text x="0" y="2.54" size="1.778" layer="51" font="vector"> https://creativecommons.org/licenses/by/4.0/</text>
+<text x="11.43" y="0" size="1.778" layer="51" font="vector">Designed by:</text>
 </package>
 </packages>
 </library>
@@ -422,6 +433,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="VALUE" x="0.3175" y="-1.5875" size="1.27" layer="27"/>
 </element>
 <element name="U1" library="SparkFun-DigitalIC" package="SO08" value="EEPROM-I2CSMD" x="5.3975" y="6.0325" smashed="yes" rot="R270"/>
+<element name="FRAME1" library="StuffLabs" package="CREATIVE_COMMONS" value="FRAME-LETTER" x="13.97" y="-16.51"/>
 </elements>
 <signals>
 <signal name="SDA">

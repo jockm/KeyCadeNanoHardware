@@ -131,6 +131,8 @@
 <layer number="229" name="229bmp" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="230" name="230bmp" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="231" name="231bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="232" name="Eagle3D_PG2" color="14" fill="2" visible="yes" active="yes"/>
+<layer number="233" name="Eagle3D_PG3" color="14" fill="4" visible="yes" active="yes"/>
 <layer number="248" name="Housing" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="249" name="Edge" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="250" name="Descript" color="3" fill="1" visible="no" active="no"/>
@@ -984,6 +986,83 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </deviceset>
 </devicesets>
 </library>
+<library name="StuffLabs">
+<packages>
+<package name="CREATIVE_COMMONS">
+<text x="-20.32" y="5.08" size="1.778" layer="51" font="vector">Released under the Creative Commons Attribution 4.0 License</text>
+<text x="0" y="2.54" size="1.778" layer="51" font="vector"> https://creativecommons.org/licenses/by/4.0/</text>
+<text x="11.43" y="0" size="1.778" layer="51" font="vector">Designed by:</text>
+</package>
+<package name="DUMMY">
+<description>NOTHING HERE!!! For when you want a symbol with no package as an option against symbols with a package.</description>
+</package>
+</packages>
+<symbols>
+<symbol name="LETTER_L">
+<wire x1="0" y1="185.42" x2="248.92" y2="185.42" width="0.4064" layer="94"/>
+<wire x1="248.92" y1="185.42" x2="248.92" y2="0" width="0.4064" layer="94"/>
+<wire x1="0" y1="185.42" x2="0" y2="0" width="0.4064" layer="94"/>
+<wire x1="0" y1="0" x2="248.92" y2="0" width="0.4064" layer="94"/>
+</symbol>
+<symbol name="DOCFIELD-1">
+<wire x1="0" y1="0" x2="71.12" y2="0" width="0.254" layer="94"/>
+<wire x1="101.6" y1="15.24" x2="87.63" y2="15.24" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="0" y2="5.08" width="0.254" layer="94"/>
+<wire x1="0" y1="5.08" x2="71.12" y2="5.08" width="0.254" layer="94"/>
+<wire x1="0" y1="5.08" x2="0" y2="15.24" width="0.254" layer="94"/>
+<wire x1="101.6" y1="15.24" x2="101.6" y2="5.08" width="0.254" layer="94"/>
+<wire x1="71.12" y1="5.08" x2="71.12" y2="0" width="0.254" layer="94"/>
+<wire x1="71.12" y1="5.08" x2="87.63" y2="5.08" width="0.254" layer="94"/>
+<wire x1="71.12" y1="0" x2="101.6" y2="0" width="0.254" layer="94"/>
+<wire x1="87.63" y1="15.24" x2="87.63" y2="5.08" width="0.254" layer="94"/>
+<wire x1="87.63" y1="15.24" x2="0" y2="15.24" width="0.254" layer="94"/>
+<wire x1="87.63" y1="5.08" x2="101.6" y2="5.08" width="0.254" layer="94"/>
+<wire x1="101.6" y1="5.08" x2="101.6" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="15.24" x2="0" y2="22.86" width="0.254" layer="94"/>
+<wire x1="101.6" y1="35.56" x2="0" y2="35.56" width="0.254" layer="94"/>
+<wire x1="101.6" y1="35.56" x2="101.6" y2="22.86" width="0.254" layer="94"/>
+<wire x1="0" y1="22.86" x2="101.6" y2="22.86" width="0.254" layer="94"/>
+<wire x1="0" y1="22.86" x2="0" y2="35.56" width="0.254" layer="94"/>
+<wire x1="101.6" y1="22.86" x2="101.6" y2="15.24" width="0.254" layer="94"/>
+<text x="1.27" y="1.27" size="2.54" layer="94" font="vector">Date:</text>
+<text x="12.7" y="1.27" size="2.54" layer="94" font="vector">&gt;LAST_DATE_TIME</text>
+<text x="72.39" y="1.27" size="2.54" layer="94" font="vector">Sheet:</text>
+<text x="86.36" y="1.27" size="2.54" layer="94" font="vector">&gt;SHEET</text>
+<text x="88.9" y="11.43" size="2.54" layer="94" font="vector">REV:</text>
+<text x="1.524" y="17.78" size="2.54" layer="94" font="vector">TITLE:</text>
+<text x="15.494" y="17.78" size="2.7432" layer="94" font="vector">&gt;DRAWING_NAME</text>
+<text x="2.54" y="31.75" size="1.9304" layer="94">Released under the Creative Commons</text>
+<text x="2.54" y="27.94" size="1.9304" layer="94">Attribution Share-Alike 4.0 License</text>
+<text x="2.54" y="24.13" size="1.9304" layer="94"> https://creativecommons.org/licenses/by-sa/4.0/</text>
+<text x="1.27" y="11.43" size="2.54" layer="94">Design by:</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="FRAME-LETTER" prefix="FRAME">
+<description>&lt;b&gt;Schematic Frame&lt;/b&gt;&lt;p&gt;
+Standard 8.5x11 US Letter frame</description>
+<gates>
+<gate name="G$1" symbol="LETTER_L" x="0" y="0"/>
+<gate name="V" symbol="DOCFIELD-1" x="147.32" y="0" addlevel="must"/>
+</gates>
+<devices>
+<device name="" package="CREATIVE_COMMONS">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="NO_PACKAGE" package="DUMMY">
+<technologies>
+<technology name="">
+<attribute name="DESIGNER" value="Nobody" constant="no"/>
+<attribute name="VERSION" value="v01" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -1000,6 +1079,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
 <part name="P+1" library="supply1" deviceset="VCC" device=""/>
 <part name="P+2" library="supply1" deviceset="VCC" device=""/>
+<part name="FRAME1" library="StuffLabs" deviceset="FRAME-LETTER" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -1012,6 +1092,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="GND2" gate="1" x="83.82" y="48.26"/>
 <instance part="P+1" gate="VCC" x="114.3" y="66.04"/>
 <instance part="P+2" gate="VCC" x="76.2" y="33.02"/>
+<instance part="FRAME1" gate="G$1" x="-33.02" y="-45.72"/>
+<instance part="FRAME1" gate="V" x="114.3" y="-45.72"/>
 </instances>
 <busses>
 </busses>
